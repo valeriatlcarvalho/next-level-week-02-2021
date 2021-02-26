@@ -18,6 +18,10 @@
   --blue-twitter: #2aa9e0;
 }
 
+html {
+  font-size: 16px;
+}
+
 @media(max-width: 1000px) {
   html {
     font-size: 93.75%; /* 15px (quando o base é 16px) */
@@ -36,7 +40,7 @@ body {
 }
 
 body, input, textarea, button {
-  font: 400 16rem "Inter", sans-serif;
+  font: 400 1rem "Inter", sans-serif;
 }
 
 button {
